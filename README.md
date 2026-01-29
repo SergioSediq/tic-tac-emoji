@@ -1,96 +1,108 @@
-## 😛 XO Rumble
+# 😛 XO Rumble — Tic-Tac-Emoji
 
-An emoji-based Tic-Tac-Toe game built with React and TypeScript. The game supports both single-player and local multiplayer modes, with randomly generated emojis every time you play. Single-player mode includes Easy and Hard bot difficulties.
-
----
-
-## 🎮 Game Modes
-
-### 1️⃣ Single Player
-
-Play against a computer-controlled bot.
-
-- Select **Single Player** from the main menu  
-- Choose your emoji (new emojis appear every visit)
-- Select difficulty: **Easy** or **Hard**
-- First player to get 3 in a row wins
-- At game end (win, loss, or draw), a result modal appears with:
-  - **Replay** to start again
-  - **Home** to return to the main menu
-- Game progress persists if you refresh or leave the page
+An emoji-powered Tic-Tac-Toe game built with **React** and **TypeScript**. XO Rumble brings classic gameplay to life with animated UI, randomly generated emojis, and both single-player and local multiplayer modes.
 
 ---
 
-### 2️⃣ Multiplayer
+## ✨ Preview
 
-Play locally with another person on the same device.
-
-- Player one is auto-selected
-- Player two receives a random emoji each round
-- First player to get 3 in a row wins
-- End-of-game modal shows results with:
-  - **Replay**
-  - **Home**
-- Game state is preserved on refresh or revisit
+(Add your demo GIF or screenshots here)
 
 ---
 
-## ⚡ Technologies Used
+## ⚙️ Features
 
-- Vite
-- React
-- TypeScript
-- Zustand
-- Styled Components
-- Framer Motion
+* 😄 **Emoji-Based Gameplay**
 
----
+  * New random emojis every game
+  * Fresh visual experience each round
+* 🧠 **Single Player Mode**
 
-## 💡 Project Idea
+  * Play against a bot
+  * Easy and Hard difficulty options
+* 👥 **Local Multiplayer Mode**
 
-This project is a reimagined version of a classic Tic-Tac-Toe game, rebuilt with modern frontend tools. The goal was to make the experience more playful and less repetitive by introducing emoji-based gameplay, animations, and multiple modes.
+  * Two players on the same device
+  * Automatic emoji assignment per round
+* 💾 **Persistent Game State**
 
-Repository:  https://github.com/SergioSediq/tic-tac-emoji
+  * Resume games after refresh or page leave
+* 🎬 **Smooth Animations**
 
----
+  * Animated transitions and interactions
+* 📱 **Responsive Design**
 
-## 🔧 Possible Improvements
-
-- Add sound effects and background music
-- Highlight the winning three-in-a-row combination
-- Improve mobile compatibility
-
----
-
-## 🐛 Known Issue
-
-- The game does not function correctly on Android devices
+  * Optimized for desktop and tablet screens
 
 ---
 
-## 🚦 Running the Project Locally
+## 🎞️ Animations & Interactions
 
-- Clone the repository
-- Install dependencies
-- Start the development server
-- Open the local URL provided by Vite in your browser
+* Emoji hover and selection animations
+* Modal transitions for game results
+* Turn-based visual feedback
+* Motion effects powered by Framer Motion
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download the repository
+2. Install dependencies
+3. Run the development server
+4. Open the local URL provided by Vite
+
+The game runs entirely in the browser.
 
 ---
 
 ## 📂 Project Structure
 
-- Public assets (favicon)
-- Core game logic and components
-- Single-player and multiplayer modules
-- Shared utilities and global styles
-- Vite configuration and TypeScript setup
+```
+tic-tac-emoji/
+├── public/            # Static assets
+├── src/
+│   ├── assets/        # Icons and shared variables
+│   ├── components/    # Game components
+│   │   ├── SinglePlayer
+│   │   ├── MultiPlayer
+│   │   ├── Spinner
+│   │   └── Start
+│   ├── util/          # Helpers and utilities
+│   ├── App.tsx
+│   ├── GlobalStyles.tsx
+│   └── main.tsx
+├── index.html
+├── README.md
+└── vite.config.ts
+```
 
 ---
 
-## 📸 Demo
+## ⚡ Technologies Used
 
-<img src="https://github.com/mirayatech/tic-tac-emoji/assets/71933266/3ccda378-3338-4e13-ad89-0b7d72029a8f" width="100%" />
+* Vite
+* React
+* TypeScript
+* Zustand
+* Styled Components
+* Framer Motion
 
 ---
 
-Built with emojis 😛, React ⚛️, and TypeScript 💙
+## 🔧 Known Limitations
+
+* The game does not function correctly on Android devices
+
+---
+
+## 🔮 Future Improvements
+
+* Sound effects and background music
+* Highlight winning three-in-a-row tiles
+* Improved mobile support
+* Additional emoji themes
+
+---
+
+**Built with 😛, React ⚛️, and TypeScript 💙**
