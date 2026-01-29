@@ -50,8 +50,7 @@ Play locally with another person on the same device.
 
 This project is a reimagined version of a classic Tic-Tac-Toe game, rebuilt with modern frontend tools. The goal was to make the experience more playful and less repetitive by introducing emoji-based gameplay, animations, and multiple modes.
 
-Repository:  
-https://github.com/SergioSediq/tic-tac-emoji
+Repository:  https://github.com/SergioSediq/tic-tac-emoji
 
 ---
 
