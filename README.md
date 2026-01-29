@@ -4,9 +4,9 @@ An emoji-powered Tic-Tac-Toe game built with **React** and **TypeScript**. XO Ru
 
 ---
 
-## ✨ Preview
+## 📸 Demo
 
-(Add your demo GIF or screenshots here)
+<img src="./public/demo.gif" width="100%" />
 
 ---
 
